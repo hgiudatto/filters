@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="filtersApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="scripts/filtersController.js"></script>
+</head>
+<body ng-controller="filtersController">
+    {{myHtml|json}}
+    <p>
+        {{costo|currency}}
+    </p>
+    <!-- https://youtu.be/03WQ4PjoA5A?list=PLpOqH6AE0tNhdnOl1mOBthj4C7OHdwQB2&t=2 -->
+</body>
+</html>
